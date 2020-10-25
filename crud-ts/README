@@ -1,0 +1,10 @@
+Introduction
+============
+
+A simple set of code for groceries.
+What to change: add class GroceriesController which handles the groceries resource in order to have a controller class as a base and inherit from it for each controller
+
+License and Authors
+===================
+
+Author:: Ruslan Volovik <rv.volovik88@gmail.com>
