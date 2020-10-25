@@ -1,0 +1,14 @@
+import 'dotenv/config'
+import { NestFactory } from '@nestjs/core'
+import { AppModule } from './app.module'
+
+if (process.env.NODE_ENV === 'test') {
+  process.env.MONGO_URI = process.env.MONGO_URI_TEST
+  console.log('testing in process')
+}
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule)
+  await app.listen(process.env.PORT || 3000)
+}
+bootstrap()
