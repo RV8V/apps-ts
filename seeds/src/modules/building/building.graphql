@@ -1,0 +1,24 @@
+type Building {
+  # Example field (placeholder)
+  exampleField: Int
+}
+
+input CreateBuildingInput {
+  # Example field (placeholder)
+  exampleField: Int
+}
+
+input UpdateBuildingInput {
+  id: Int!
+}
+
+type Query {
+  building: [Building]!
+  building(id: Int!): Building
+}
+
+type Mutation {
+  createBuilding(createBuildingInput: CreateBuildingInput!): Building!
+  updateBuilding(updateBuildingInput: UpdateBuildingInput!): Building!
+  removeBuilding(id: Int!): Building
+}
