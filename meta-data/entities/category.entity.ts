@@ -25,6 +25,9 @@ export class CategoryEntity extends SharedProps {
   @Column()
   label: string
 
+  @Column()
+  someColumn: string
+
   @OneToMany(() => CategoryPostEntity, (categoryPosts: CategoryPostEntity) => categoryPosts.category)
   categoryPosts: Array<CategoryPostEntity>
 
