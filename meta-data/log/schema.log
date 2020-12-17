@@ -1,0 +1,6 @@
+1608227136802 [schema] debug creating a new table: categories
+1608227136806 [schema] debug creating a new table: categories_posts
+1608227136817 [schema] debug creating a new table: posts
+1608227136818 [schema] debug creating a new table: users
+1608227136824 [schema] debug creating a foreign keys: FK_653a5dd4ae2517979bc6be018ab, FK_70980bcc3dc8718e5d580afc620 on table "categories_posts"
+1608227136829 [schema] debug creating a foreign keys: FK_c4f9a7bd77b489e711277ee5986 on table "posts"

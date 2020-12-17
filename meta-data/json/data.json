@@ -1,0 +1,112 @@
+[
+  {
+    "firstName": "Curt",
+    "lastName": "Crist",
+    "isActive": false,
+    "birth": "2020-03-17",
+    "password": "ds79sjsTusQZPYP",
+    "email": "Remington_Nikolaus38@gmail.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 1
+  },
+  {
+    "firstName": "Samir",
+    "lastName": "Marquardt",
+    "isActive": true,
+    "birth": "2020-07-29",
+    "password": "nLBD6LvrkNaRJXr",
+    "email": "Aaliyah.Hessel53@gmail.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 2
+  },
+  {
+    "firstName": "Kieran",
+    "lastName": "Metz",
+    "isActive": true,
+    "birth": "2020-06-06",
+    "password": "0_yRbsKpy3lDxA_",
+    "email": "Guido47@yahoo.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 3
+  },
+  {
+    "firstName": "Karson",
+    "lastName": "Wolf",
+    "isActive": true,
+    "birth": "2020-07-14",
+    "password": "PUlQuIiHJ9K4jtW",
+    "email": "Domenica64@yahoo.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 4
+  },
+  {
+    "firstName": "Anita",
+    "lastName": "Terry",
+    "isActive": true,
+    "birth": "2020-08-31",
+    "password": "npiSTOvWSUWZQNF",
+    "email": "Pete.Welch29@gmail.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 5
+  },
+  {
+    "firstName": "Fidel",
+    "lastName": "Kunze",
+    "isActive": true,
+    "birth": "2020-09-11",
+    "password": "OJdMleUaSP2JvbJ",
+    "email": "Malvina.Murphy42@yahoo.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 6
+  },
+  {
+    "firstName": "Verdie",
+    "lastName": "Grant",
+    "isActive": false,
+    "birth": "2020-07-08",
+    "password": "2s59gVgoiDdqEtg",
+    "email": "Rebekah.Bins78@yahoo.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 7
+  },
+  {
+    "firstName": "Cullen",
+    "lastName": "Nolan",
+    "isActive": false,
+    "birth": "2020-05-19",
+    "password": "Tgw2PAMHGOsNCAA",
+    "email": "Davin_Boyle53@gmail.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 8
+  },
+  {
+    "firstName": "Lorine",
+    "lastName": "Kuhic",
+    "isActive": true,
+    "birth": "2020-06-05",
+    "password": "fQWtsPjembXHEKT",
+    "email": "Eddie_Lesch@yahoo.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 9
+  },
+  {
+    "firstName": "Leone",
+    "lastName": "Morissette",
+    "isActive": false,
+    "birth": "2019-12-20",
+    "password": "puzA0ZzVL8akZvI",
+    "email": "Luis83@hotmail.com",
+    "createdAt": "2020-12-17T16:01:51.000Z",
+    "updatedAt": "2020-12-17T16:01:51.000Z",
+    "id": 10
+  }
+]
