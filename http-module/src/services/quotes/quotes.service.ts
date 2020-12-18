@@ -10,30 +10,36 @@ export class QuotesService {
     }
 
     getQuotes() {
-      
+
         console.log('enter')
 
         var data = []
 
         return this.http.get('https://en.wikipedia.org/wiki/List_of_mosques_in_the_Arab_League')
+                                                                                //  .then()
                                         // .then()
-            .pipe(
-                map(response => response.data)
-            );
+            // .pipe(
+            //     map(response => response.data)
+            // );
 
         // console.log({ result })
     }
 
     getQuote(id){
+
         return this.http.get('http://quotesondesign.com/wp-json/posts/' + id)
             .pipe(
+
                 map(response => response.data)
             );
     }
 
-    getRandomQuote(){
+    getRandomQuote()
+    {
+
         return this.http.get('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1')
             .pipe(
+
                 map(response => response.data)
             );
     }
