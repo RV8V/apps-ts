@@ -31,7 +31,7 @@ export class LanguageSeederService {
   create(): Array<Promise<Language>> {
     return languages.map(async (language: ILanguage) => {
       return await this.languageRepository
-        .findOne({ name: language.name })
+        .findOne({ name: language.name })       //.save()
       //  .exec()
         .then(async dbLangauge => {
           // We check if a language already exists.
