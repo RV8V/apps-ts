@@ -7,4 +7,4 @@ client.messages.create({
   to: '+380000000',
   from: '+15037446981',
   body: 'This is the ship than made the Kessel Run in 14 parsecs?'
-}).then(console.log)
+}).then(console.log).catch(console.log)
